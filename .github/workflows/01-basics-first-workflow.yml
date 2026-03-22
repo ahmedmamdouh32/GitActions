@@ -1,1 +1,30 @@
 name: 01 Basics First Workflow
+
+on: 
+  workflow_dispatch
+
+jobs: 
+
+  printHelloWorld:
+
+    runs-on: ubonto-latest
+
+    steps:
+      - run : echo "hello world"
+        name : print Hello World
+          
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
