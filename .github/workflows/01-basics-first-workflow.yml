@@ -7,7 +7,7 @@ jobs:
 
   printHelloWorld:
 
-    runs-on: ubonto-latest
+    runs-on: ubuntu-latest
 
     steps:
       - run : echo "hello world"
