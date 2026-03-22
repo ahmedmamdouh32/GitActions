@@ -1,0 +1,12 @@
+name: Events Example
+
+on: push
+
+jobs:
+  printHelloWorld:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: first step
+        run: echo "Hello World from events"
+
+        
