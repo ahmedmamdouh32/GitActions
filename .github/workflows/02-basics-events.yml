@@ -3,9 +3,10 @@ name: Events Example
 on:
   push:
     branches:
-      - ahmed
+      - newbranch
 
 
+    
 jobs:
   printHelloWorld:
     runs-on: ubuntu-latest
