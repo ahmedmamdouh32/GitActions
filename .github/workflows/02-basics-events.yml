@@ -2,7 +2,8 @@ name: Events Example
 
 on:
   push:
-    - ahmed
+    branches:
+      - ahmed
 
 
 jobs:
