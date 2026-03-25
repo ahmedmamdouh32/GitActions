@@ -1,9 +1,8 @@
 name: Events Example
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
+    - ahmed
 
 
 jobs:
@@ -11,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: first step
-        run: echo "Hello World from events"
+        run: echo "Ahmed's branch works well"
 
         
